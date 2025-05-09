@@ -126,7 +126,7 @@ To run code in Jupyter, follow the steps below:
 - Ensure your notebook or script is placed inside the `working/` folder to enable synchronization.
 
 ### 4. Explore Example Notebooks
-- If you're new to Jupyter or want to quickly see how things work, check out the example notebooks under the `working/examples/` folder.
+- If you're new to Jupyter or want to quickly see how things work, check out the example notebook at `working/script/example.ipynb`.
 - These examples will help you understand how to use the system.
 
 ### 5. Run Your Code
