@@ -55,13 +55,13 @@ docker build --no-cache -t firescape_jupyter .
   - (Recommended) Run with GPU in addition to CPU.
 
     ```bash
-    docker run -d --name firescape_container -p 8888:8888 -p 5000:5000 -p 5001:5001 -p 5002:5002 --gpus all -v "%cd%\working:/app/working" firescape_jupyter
+    docker run -d --name firescape_container -p 8888:8888 --gpus all -v "%cd%\working:/app/working" firescape_jupyter
     ```
 
   - Run with CPU only.
 
     ```bash
-    docker run -d --name firescape_container -p 8888:8888 -p 5000:5000 -p 5001:5001 -p 5002:5002 -v "%cd%\working:/app/working" firescape_jupyter
+    docker run -d --name firescape_container -p 8888:8888 -v "%cd%\working:/app/working" firescape_jupyter
     ```
 
 - For Linux / MacOS, run the following command in terminal.
@@ -69,13 +69,13 @@ docker build --no-cache -t firescape_jupyter .
   - (Recommended) Run with GPU in addition to CPU.
 
     ```bash
-    docker run -d --name firescape_container -p 8888:8888 -p 5000:5000 -p 5001:5001 -p 5002:5002 --gpus all -v "$(pwd)/working:/app/working" firescape_jupyter
+    docker run -d --name firescape_container -p 8888:8888 --gpus all -v "$(pwd)/working:/app/working" firescape_jupyter
     ```
 
   - Run with CPU only.
 
     ```bash
-    docker run -d --name firescape_container -p 8888:8888 -p 5000:5000 -p 5001:5001 -p 5002:5002 -v "$(pwd)/working:/app/working" firescape_jupyter
+    docker run -d --name firescape_container -p 8888:8888 -v "$(pwd)/working:/app/working" firescape_jupyter
     ```
 
 ### Step 5: Start Jupyter
