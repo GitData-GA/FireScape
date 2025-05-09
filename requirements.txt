@@ -8,7 +8,6 @@ folium==0.19.5
 matplotlib==3.10.3
 seaborn==0.13.2
 plotly==6.0.1
-earthpy==0.9.4
 sentinelhub==3.11.1
 requests==2.32.3
 tqdm==4.67.1
