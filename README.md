@@ -23,7 +23,7 @@ Choosing a preferred directory.
 - For Windows, run the following command in Windows command prompt.
 
   ```bash
-  powershell -Command "Invoke-WebRequest -Uri 'https://github.com/GitData-GA/FireScape/archive/refs/heads/magicbox.zip' -OutFile 'magicbox.zip'; Expand-Archive -Path 'magicbox.zip' -DestinationPath .; Rename-Item 'GarmentIQ-magicbox' 'firescape_jupyter'; Remove-Item 'magicbox.zip'"
+  powershell -Command "Invoke-WebRequest -Uri 'https://firescape.project.gd.edu.kg/assets/zip/jupyter.zip' -OutFile 'magicbox.zip'; Expand-Archive -Path 'magicbox.zip' -DestinationPath .; Rename-Item 'GarmentIQ-magicbox' 'firescape_jupyter'; Remove-Item 'magicbox.zip'"
   ```
 
 - For Linux / MacOS, run the following command in terminal. Make sure you have already installed `curl` and `unzip`.
