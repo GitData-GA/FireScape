@@ -8,7 +8,7 @@
 
 ---
 
-**The purpose of this Jupyter Docker image is to make sure everyone has the identical working environment, i.e., Python and its packages' versions to be the same for everyone.**
+**The purpose of this Jupyter Docker image is to make sure everyone has the identical working environment, i.e., Python and its packages' versions to be the same for everyone. This avoid the issue that the code can run on my device but not yours.**
 
 ![image](https://github.com/user-attachments/assets/bd40b7b6-941c-429f-a160-0dd0eae0d295)
 
