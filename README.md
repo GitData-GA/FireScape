@@ -23,13 +23,13 @@ Choosing a preferred directory.
 - For Windows, run the following command in Windows command prompt.
 
   ```bash
-  powershell -Command "Invoke-WebRequest -Uri 'https://firescape.project.gd.edu.kg/assets/zip/jupyter.zip' -OutFile 'magicbox.zip'; Expand-Archive -Path 'magicbox.zip' -DestinationPath .; Rename-Item 'GarmentIQ-magicbox' 'firescape_jupyter'; Remove-Item 'magicbox.zip'"
+  powershell -Command "Invoke-WebRequest -Uri 'https://firescape.project.gd.edu.kg/assets/zip/jupyter.zip' -OutFile 'jupyter.zip'; Expand-Archive -Path 'jupyter.zip' -DestinationPath .; Rename-Item 'FireScape-jupyter' 'firescape_jupyter'; Remove-Item 'jupyter.zip'"
   ```
 
 - For Linux / MacOS, run the following command in terminal. Make sure you have already installed `curl` and `unzip`.
 
   ```bash
-  curl -L -o magicbox.zip https://github.com/lygitdata/GarmentIQ/archive/refs/heads/magicbox.zip && unzip magicbox.zip && mv GarmentIQ-magicbox firescape_jupyter && rm magicbox.zip
+  curl -L -o jupyter.zip https://firescape.project.gd.edu.kg/assets/zip/jupyter.zip && unzip jupyter.zip && mv FireScape-jupyter firescape_jupyter && rm jupyter.zip
   ```
 
 ### Step 2: Switch the directory
